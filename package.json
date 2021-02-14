@@ -9,7 +9,7 @@
   "unpkg": "dist/ssmq.umd.js",
   "typings": "dist/ssmq.d.ts",
   "scripts": {
-    "build": "microbundle",
+    "build": "microbundle --jsx React.createElement",
     "dev": "microbundle watch",
     "release": "np"
   },
