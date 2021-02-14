@@ -1,6 +1,6 @@
 {
   "name": "server-side-media-queries-for-react",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Server side rendering media queries",
   "source": "ssmq.js",
   "main": "dist/ssmq.js",
@@ -10,11 +10,13 @@
   "typings": "dist/ssmq.d.ts",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "release": "np"
   },
   "devDependencies": {
     "@types/react": "^17.0.2",
     "microbundle": "^0.13.0",
+    "np": "^7.4.0",
     "react": ">=16.8.0"
   },
   "peerDependencies": {
@@ -26,5 +28,8 @@
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/codehike"
+  },
+  "np": {
+    "2fa": false
   }
 }
