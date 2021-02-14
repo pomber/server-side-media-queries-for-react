@@ -31,5 +31,8 @@
   },
   "np": {
     "2fa": false
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
