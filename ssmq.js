@@ -18,7 +18,7 @@ export function Swap({ match }) {
   const mainClassName = isServer ? "ssmq-" + suffixCounter++ : "";
 
   return isServer ? (
-    <>
+    <React.Fragment>
       <style
         className={mainClassName}
         dangerouslySetInnerHTML={{ __html: getStyle(queries, mainClassName) }}
@@ -32,11 +32,11 @@ export function Swap({ match }) {
         className={mainClassName}
         dangerouslySetInnerHTML={{ __html: getScript(match, mainClassName) }}
       />
-    </>
+    </React.Fragment>
   ) : (
-    <>
+    <React.Fragment>
       <div>{match[matchedIndex][1]}</div>
-    </>
+    </React.Fragment>
   );
 }
 
