@@ -1,3 +1,9 @@
+Media queries that work everywhere:
+
+- with server side rendering
+- with SSR and JS disabled on the browser
+- without SSR
+
 ## Usage
 
 ```jsx
@@ -28,9 +34,9 @@ function MobileApp() {
 
 ## Related
 
-[artsy/fresnel](https://github.com/artsy/fresnel/)
-[ReactTraining/react-media](https://github.com/ReactTraining/react-media)
-[contra/react-responsive](https://github.com/contra/react-responsive)
+- [artsy/fresnel](https://github.com/artsy/fresnel/)
+- [ReactTraining/react-media](https://github.com/ReactTraining/react-media)
+- [contra/react-responsive](https://github.com/contra/react-responsive)
 
 ## License
 
