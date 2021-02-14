@@ -1,0 +1,30 @@
+{
+  "name": "server-side-media-queries-for-react",
+  "version": "0.0.1",
+  "description": "Server side rendering media queries",
+  "source": "ssmq.js",
+  "main": "dist/ssmq.js",
+  "exports": "./dist/ssmq.modern.js",
+  "module": "dist/ssmq.module.js",
+  "unpkg": "dist/ssmq.umd.js",
+  "typings": "dist/ssmq.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "microbundle": "^0.13.0",
+    "react": ">=16.8.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "repository": "pomber/server-side-media-queries-for-react",
+  "author": "Rodrigo Pombo",
+  "license": "MIT",
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/codehike"
+  }
+}
