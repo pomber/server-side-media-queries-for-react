@@ -9,7 +9,7 @@ Media queries that work everywhere:
 ```jsx
 import { Swap } from "server-side-media-queries-for-react";
 
-function App() {
+export default function App() {
   return (
     <Swap
       match={[
