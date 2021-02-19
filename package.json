@@ -1,6 +1,6 @@
 {
   "name": "server-side-media-queries-for-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Server side rendering media queries",
   "source": "ssmq.js",
   "main": "dist/ssmq.js",
