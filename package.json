@@ -8,6 +8,10 @@
   "module": "dist/ssmq.module.js",
   "unpkg": "dist/ssmq.umd.js",
   "typings": "dist/ssmq.d.ts",
+  "files": [
+    "dist",
+    "ssmq.js"
+  ],
   "scripts": {
     "build": "microbundle --jsx React.createElement",
     "dev": "microbundle watch",
