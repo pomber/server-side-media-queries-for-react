@@ -4,7 +4,6 @@
   "description": "Server side rendering media queries",
   "source": "ssmq.js",
   "main": "dist/ssmq.js",
-  "exports": "./dist/ssmq.modern.js",
   "module": "dist/ssmq.module.js",
   "unpkg": "dist/ssmq.umd.js",
   "typings": "dist/ssmq.d.ts",
